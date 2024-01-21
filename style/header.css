@@ -1,15 +1,9 @@
-.header {
-}
-
 .header__wrapper {
   width: 100%;
   height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header__nav {
 }
 
 .header__nav-list {
@@ -59,5 +53,11 @@
 @media (max-width: 768px) {
   .header__nav {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 100px;
   }
 }

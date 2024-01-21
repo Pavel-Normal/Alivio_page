@@ -18,6 +18,17 @@ a {
   color: unset;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -52,4 +63,11 @@ a {
 .btn--singnin {
   background: none;
   color: var(--co-black);
+}
+
+@media (max-width: 480px) {
+  .btn:hover,
+  .btn:focus-visible {
+    outline: 1px solid var(--co-dark-green);
+  }
 }
