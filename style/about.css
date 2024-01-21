@@ -52,7 +52,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
+    gap: 30px;
   }
   .about__card {
     flex-direction: column;
@@ -76,5 +76,14 @@
 
   .about__desc {
     font-size: 16px;
+  }
+
+  @media (max-width: 480px) {
+    .about__card {
+      gap: 100px;
+    }
+    .about__card {
+      margin: 180px 0 0 0;
+    }
   }
 }
