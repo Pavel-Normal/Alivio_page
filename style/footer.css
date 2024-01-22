@@ -1,0 +1,32 @@
+.footer {
+  background: var(--co-dark-green);
+  padding: 95px 0 145px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.footer__wrapper .logo {
+  width: 104px;
+  height: 48px;
+  fill: var(--co-white);
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer__list-item {
+  color: var(--co-white);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer__list-link:hover {
+  color: var(--co-light-green);
+}
