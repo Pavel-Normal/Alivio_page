@@ -1,10 +1,9 @@
 :root {
-  --co-white: #ffffff;
-  --co-green: #017f67;
-  --co-dark-green: #245852;
-  --co-light-green: #01996d;
-  --co-black: #292929;
-  --co-light-black: #484848;
-}
+  --bg-main: #fff;
 
-/*media brakepoints: 922px, 768px, 546px, 480px*/
+  --bg-main-grey: #f6f6f6;
+
+  --font-color-gray: #544d4d;
+
+  --color-main-black: #070707;
+}
